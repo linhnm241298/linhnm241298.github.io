@@ -2,7 +2,7 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/firefox.png"){
+    if (mySrc === "firefox.png"){
         myImage.setAttribute("src", "firefox2.png");
     } else {
         myImage.setAttribute("src", "firefox.png");
